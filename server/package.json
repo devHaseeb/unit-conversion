@@ -1,0 +1,19 @@
+{
+    "name": "unit-conversion",
+    "version": "1.0.0",
+    "description": "server-side application for unit conversion",
+    "main": "index.js",
+    "scripts": {
+      "start": "node index.js",
+      "dev": "nodemon index.js"
+    },
+    "dependencies": {
+      "express": "^4.17.1",
+      "mongoose": "^5.11.16",
+      "body-parser": "^1.19.0"
+    },
+    "devDependencies": {
+      "nodemon": "^2.0.4"
+    }
+  }
+  
