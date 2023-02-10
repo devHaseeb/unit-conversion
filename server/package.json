@@ -1,19 +1,54 @@
 {
-    "name": "unit-conversion",
-    "version": "1.0.0",
-    "description": "server-side application for unit conversion",
-    "main": "index.js",
-    "scripts": {
-      "start": "node index.js",
-      "dev": "nodemon index.js"
-    },
-    "dependencies": {
-      "express": "^4.17.1",
-      "mongoose": "^5.11.16",
-      "body-parser": "^1.19.0"
-    },
-    "devDependencies": {
-      "nodemon": "^2.0.4"
-    }
+  "name": "project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "and": "0.0.3",
+    "axios": "^0.21.0",
+    "bcrypt": "^5.0.0",
+    "blob": "^0.1.0",
+    "body-parser": "^1.19.0",
+    "compression": "^1.7.4",
+    "cookie-parser": "^1.4.5",
+    "core-js": "^3.6.5",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "events": "^3.2.0",
+    "express": "^4.17.1",
+    "express-async-handler": "^1.1.4",
+    "express-fileupload": "^1.2.0",
+    "express-jwt": "^5.3.3",
+    "express-validation": "^3.0.6",
+    "form-data": "^3.0.0",
+    "formidable": "^1.2.2",
+    "helmet": "^3.23.3",
+    "http-errors": "^1.8.0",
+    "joi": "^14.3.1",
+    "jsonwebtoken": "^8.5.1",
+    "method-override": "^3.0.0",
+    "moongoose": "0.0.5",
+    "morgan": "^1.10.0",
+    "mssql": "^6.2.3",
+    "mysql": "^2.18.1",
+    "node-blob": "0.0.2",
+    "nodemailer": "^6.4.11",
+    "passport": "^0.4.1",
+    "passport-jwt": "^4.0.0",
+    "passport-local": "^1.0.0",
+    "request": "^2.88.2",
+    "swagger-ui-express": "^4.1.4",
+    "webpack": "^4.44.2",
+    "webpack-dev-server": "^3.11.0",
+    "zip-a-folder": "0.0.12"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
   }
-  
+}
